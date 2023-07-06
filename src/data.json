@@ -1,0 +1,172 @@
+[
+    {
+      "id": 1,
+      "username": "user",
+      "name": "1",
+      "email": "user1@example.com",
+      "phone": "123-456-7890",
+      "website": "https://www.gmail.com",
+      "address": {
+        "street": "123 Street",
+        "suite": "Apt 1",
+        "city": "City 1",
+        "zipcode": "123456"
+      },
+      "company": {
+        "name": "Company 1"
+      }
+    },
+    {
+        "id": 2,
+        "username": "user",
+        "name": "2",
+        "email": "user2@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 2"
+        }
+      },
+      {
+        "id": 3,
+        "username": "user",
+        "name": "3",
+        "email": "user3@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 3"
+        }
+      },
+      {
+        "id": 4,
+        "username": "user",
+        "name": "4",
+        "email": "user4@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 4"
+        }
+      },
+      {
+        "id": 5,
+        "username": "user",
+        "name": "5",
+        "email": "user5@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 5"
+        }
+      },
+      {
+        "id": 6,
+        "username": "user",
+        "name": "6",
+        "email": "user6@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 6"
+        }
+      },
+      {
+        "id": 7,
+        "username": "user",
+        "name": "7",
+        "email": "user7@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 7"
+        }
+      },
+      {
+        "id": 8,
+        "username": "user",
+        "name": "8",
+        "email": "user8@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 8"
+        }
+      },
+      {
+        "id": 9,
+        "username": "user",
+        "name": "9",
+        "email": "user9@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 9"
+        }
+      },
+      {
+        "id": 10,
+        "username": "user",
+        "name": "10",
+        "email": "user10@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.gmail.com",
+        "address": {
+          "street": "123 Street",
+          "suite": "Apt 1",
+          "city": "City 1",
+          "zipcode": "123456"
+        },
+        "company": {
+          "name": "Company 10"
+        }
+      }
+  ]

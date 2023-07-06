@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import UserCard from './components/UserCard';
+import usersData from './data.json';
+import 'tailwindcss/tailwind.css';
 
 function App() {
+  const [users, setUsers] = useState(usersData);
+
+  const handleUpdateUser = (updatedUser) => {
+    const updatedUsers = users.map((user) => (user.id === updatedUser.id ? updatedUser : user));
+    setUsers(updatedUsers);
+  };
+
+  const handleDeleteUser = (userId) => {
+    const filteredUsers = users.filter((user) => user.id !== userId);
+    setUsers(filteredUsers);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-wrap justify-center">
+      {users.map(user => (
+        <UserCard
+          key={user.id}
+          user={user}
+          handleUpdateUser={handleUpdateUser}
+          handleDeleteUser={handleDeleteUser}
+        />
+      ))}
     </div>
   );
 }
