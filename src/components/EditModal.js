@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { UserContext } from '../UserContext';
 
-const EditModal = ({ user, closeModal, handleUpdateUser }) => {
+const EditModal = ({ user, closeModal }) => {
+	const { handleUpdateUser } = useContext(UserContext);
   const [editedUser, setEditedUser] = useState(user);
 
   const handleChange = e => {

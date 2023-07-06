@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import EditModal from './EditModal';
 import ConfirmationModal from './ConfirmationModal';
 
-const UserCard = ({ user, handleUpdateUser, handleDeleteUser }) => {
+const UserCard = ({ user }) => {
     const [isEditModalOpen, setIsEditModalOpen] = useState(false);
     const [isConfirmationOpen, setIsConfirmationOpen] = useState(false);
     const [isLiked, setIsLiked] = useState(false);
@@ -18,12 +18,6 @@ const UserCard = ({ user, handleUpdateUser, handleDeleteUser }) => {
     const handleDelete = () => {
         setIsConfirmationOpen(true);
     };
-
-    const handleConfirmDelete = () => {
-        handleDeleteUser(user.id);
-        setIsConfirmationOpen(false);
-    };
-  
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white m-4 mt-8">
@@ -66,14 +60,12 @@ const UserCard = ({ user, handleUpdateUser, handleDeleteUser }) => {
         <EditModal
           user={user}
           closeModal={() => setIsEditModalOpen(false)}
-          handleUpdateUser={handleUpdateUser}
         />
       )}
       {isConfirmationOpen && (
         <ConfirmationModal
           user={user}
           closeConfirmationModal={() => setIsConfirmationOpen(false)}
-          handleConfirmDelete={handleConfirmDelete}
         />
       )}
     </div>
